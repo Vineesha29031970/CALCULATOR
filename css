@@ -1,0 +1,60 @@
+body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        h1{
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        #calculator-container {
+            background-color:cornflowerblue;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px;
+            color:black; 
+            border-radius: 10px;
+        }
+
+        table {
+            margin-top: 20px;
+        }
+
+        button {
+            padding: 30px;
+            font-size: 20px;
+        }
+
+        /* Define colors for operators */
+        button[data-operator="+"] {
+            background-color:darksalmon;
+        }
+
+        button[data-operator="-"] {
+            background-color:darksalmon;
+        }
+
+        button[data-operator="*"] {
+            background-color: darksalmon;
+        }
+
+        button[data-operator="/"] {
+            background-color:darksalmon;
+        }
+
+        button[data-operator="%"] {
+            background-color:darksalmon;
+        }
+
+        button[data-operator="sqrt"] {
+            background-color:darksalmon;
+        }
